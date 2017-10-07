@@ -5,7 +5,8 @@
   "author": "Terrence Wong <wongterrencew@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "build": "next build && next export"
   },
   "dependencies": {
     "babel-preset-flow": "^6.23.0",
